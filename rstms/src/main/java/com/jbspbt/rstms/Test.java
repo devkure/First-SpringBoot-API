@@ -1,4 +1,4 @@
-package com.jbspbt.rstms;
+/*package com.jbspbt.rstms;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,4 +17,4 @@ public class Test {
     private String param1;
     @Column(name="PARAM2")
     private String param2;
-}
+}*/
