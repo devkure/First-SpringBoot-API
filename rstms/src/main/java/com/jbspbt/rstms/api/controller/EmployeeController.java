@@ -4,18 +4,17 @@ import com.jbspbt.rstms.api.model.Employee;
 import com.jbspbt.rstms.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
-import java.util.Optional;
+
 @RestController
 public class EmployeeController {
 
     private EmployeeService employeeService;
 
     @Autowired
-    public EmployeeController(EmployeeService employeeService){
+    public EmployeeController(EmployeeService employeeService) {
         this.employeeService = employeeService;
     }
 
@@ -25,8 +24,8 @@ public class EmployeeController {
     }*/
 
     //DEBUG
-    @GetMapping("/test")
-    public List<Employee> test(){
+    @GetMapping("/testemp")
+    public List<Employee> test() {
         return employeeService.test();
     }
 

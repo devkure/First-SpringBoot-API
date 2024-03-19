@@ -1,11 +1,9 @@
 package com.jbspbt.rstms.api.repository;
-import com.jbspbt.rstms.api.model.Employee;
+import com.jbspbt.rstms.api.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 @Repository
-public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
+public interface TaskRepository extends JpaRepository<Task, Integer> {
     // Możemy dodać własne metody jeśli potrzebujemy dodatkowej funkcjonalności
 }

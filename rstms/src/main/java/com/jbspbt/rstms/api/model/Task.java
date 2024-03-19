@@ -32,11 +32,11 @@ public class Task {
         this.taskStatus = taskStatus;
     }
 
-    public int get_id() {
+    public int getId() {
         return _id;
     }
 
-    public void set_id(int _id) {
+    public void setId(int _id) {
         this._id = _id;
     }
 
