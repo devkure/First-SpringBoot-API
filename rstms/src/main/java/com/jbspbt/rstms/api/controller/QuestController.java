@@ -20,7 +20,7 @@ public class QuestController {
         this.questService = questService;
     }
 
-    @GetMapping("/testquest")
+    @GetMapping("/quests")
     public List<Quest> test() {
         return questService.test();
     }

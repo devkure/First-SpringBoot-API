@@ -24,7 +24,7 @@ public class EmployeeController {
     }*/
 
     //DEBUG
-    @GetMapping("/testemp")
+    @GetMapping("/employees")
     public List<Employee> test() {
         return employeeService.test();
     }

@@ -21,7 +21,7 @@ public class TaskController {
     }
 
     //DEBUG
-    @GetMapping("/testtask")
+    @GetMapping("/tasks")
     public List<Task> test() {
         return taskService.test();
     }
